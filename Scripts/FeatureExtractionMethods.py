@@ -18,6 +18,8 @@ class Features():
     
     For definitions see: Navigating features: a topologically informed chart of 
     electromyographic features space - Phinyomark et al 2017
+    Genetic Algorithm for Feature Selection in Lower Limb Pattern Recognition -
+    Schulte et al 2021 - https://doi.org/10.3389/frobt.2021.710806
     """
     def __init__(self):
         b = np.hamming(32) # for AFB
